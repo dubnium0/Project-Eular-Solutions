@@ -3,7 +3,7 @@ def sum_even_fibonacci_number():
     a, b = 1,2
     sum_even = 0
     while a<=limit:
-        if a%2 ==0 :
+        if a%2 ==0:
             sum_even+=a
         a, b = b, a+b
     return sum_even
